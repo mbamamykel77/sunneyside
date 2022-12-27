@@ -1,156 +1,189 @@
 body {
-    margin: 0px;
-    padding: 0px;
-    /* font-family: sans-serif; */
-    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+  margin: 0px;
+  padding: 0px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&display=swap');
 
 .header h2 {
-    position: absolute;
-    text-align: center;
-    color: white;
-    margin-left: 60px;
-    margin-top: 50px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  margin-left: 60px;
+  margin-top: 50px;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
 }
 .header img {
-    width: 100%;
+  width: 100%;
 }
 
 .header-a {
-    display: flex;
-    margin-left: 900px;
-    position: absolute;
-    text-align: center;
-    margin-top: 50px;
+  display: flex;
+  margin-left: 800px;
+  position: absolute;
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Barlow', sans-serif
 }
 .header-a a {
-    margin-right: 50px;
-    color: white;
-    text-decoration: none;
+  margin-right: 50px;
+  color: white;
+  text-decoration: none;
 }
 
 .contact {
-    background-color: white;
-    border-radius: 30px;
-    border: 1px solid none;
-    margin-top: -10px;
-    padding: 13px;
+  background-color: white;
+  border-radius: 30px;
+  border: 1px solid none;
+  margin-top: -10px;
+  padding: 13px;
 }
 .contact a {
-    color: black;
-    font-weight: bold;
-    margin-right: 20px;
-    margin-left: 15px;
+  color: black;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-left: 15px;
+  font-family: 'Fraunces', serif;
 }
 
-.creatives h1{
-    position: absolute;
-    margin-left: 450px;
-    font-size: 45px;
-    margin-top: 200px;
-    color: white;
+.creatives h1 {
+  position: absolute;
+  margin-left: 350px;
+  font-size: 45px;
+  margin-top: 200px;
+  color: white;
+  font-family: 'Fraunces', serif;
+  letter-spacing: 10px;
+
 }
 
 /* Transforms section */
 .transform {
-    display: flex;
-    flex-direction: row;
-    margin-top: -4px;
+  display: flex;
+  flex-direction: row;
+  margin-top: -4px;
+}
+
+.transform h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 900;
 }
 .transform img {
-    width: 100%;
+  width: 100%;
 }
 
 .div-1 {
-    width: 50%;
+  width: 50%;
 }
-.div-1 h1, p, button {
-    margin-left: 150px;
-    margin-top: 80px;
+.div-1 h1,
+p,
+button {
+  margin-left: 150px;
+  margin-top: 80px;
 }
-.div-1 p{
-    color: rgb(116, 116, 116);
+.div-1 p {
+  color: rgb(116, 116, 116);
+  font-family: 'Barlow', sans-serif
 }
 .div-2 {
-    width: 50%;
+  width: 50%;
 }
 
 .transform button {
-    margin-top: 60px;
-    background-color: white;
-    border: none;
-    font-weight: bold;
-    border-bottom: 4px solid rgb(255, 217, 0);
+  margin-top: 60px;
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  border-bottom: 4px solid hsl(51, 100%, 49%);
+  font-family: 'Fraunces', serif;
 }
 
 .content-image {
-    display: flex;
+  display: flex;
 }
 .content-image img {
-    width: 100%;
-    margin-top: -4px;
+  width: 100%;
+  margin-top: -4px;
 }
 
 .graphic-design h1 {
-    position: absolute;
-    margin-top: 400px;  
-    margin-left: 200px; 
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 230px;
+  color: hsl(167, 40%, 24%);
+  font-family: 'Fraunces', serif;
 }
 .graphic-design p {
-    position: absolute;
-    text-align: center;
-    margin-top: 470px;
+  position: absolute;
+  text-align: center;
+  margin-top: 470px;
+  margin-left: 180px;
+  color: hsl(167, 40%, 24%);
+  font-family: 'Barlow', sans-serif
 }
-.photography h1{
-    position: absolute;
-    margin-top: 400px;
-    margin-left: 250px;
+.photography h1 {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 250px;
+  color: hsl(198, 62%, 26%);
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
 }
-.photography p{
-    position: absolute;
-    text-align: center;
-    margin-top: 470px;
-    margin-left: 200px;
+.photography p {
+  position: absolute;
+  text-align: center;
+  margin-top: 470px;
+  margin-left: 200px;
+  color: hsl(198, 62%, 26%);
+  font-family: 'Barlow', sans-serif
 }
 
 .client h1 {
-    text-align: center;
-    color: gray;
-    margin-top: 150px;
+  text-align: center;
+  color: hsl(210, 4%, 67%);
+  margin-top: 150px;
 }
 
 .profile-container {
-    display: flex;
+  display: flex;
 }
 
 .profile {
-    width: 40%;
+  width: 40%;
 }
 .profile img {
-    width: 50px;
-    border-radius: 50px;
-    margin-left: 180px;
-    margin-top: 10px;
+  width: 50px;
+  border-radius: 50px;
+  margin-left: 180px;
+  margin-top: 10px;
 }
 .profile p {
-    margin-top: 40px;
-    margin-left: -10px;
-    text-align: center;
+  margin-top: 40px;
+  margin-left: -10px;
+  text-align: center;
+  color: hsl(213, 9%, 39%);
+  font-family: 'Barlow', sans-serif
 }
 
 .name {
-    text-align: center;
-    margin-top: 80px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.name h3 {
+    font-family: 'Fraunces', serif;
 }
 .name span {
-    color: gray;
+  color: hsl(210, 4%, 67%);
+  font-size: 13px;
+  font-family: 'Barlow', sans-serif
 }
 
 .bottom-image {
-    display: flex;
-    margin-top: 150px;
+  display: flex;
+  margin-top: 150px;
 }
 .bottom-image img {
-    width: 100%;
+  width: 100%;
 }
-
