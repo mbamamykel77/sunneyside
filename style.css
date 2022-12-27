@@ -140,24 +140,27 @@ button {
   text-align: center;
   color: hsl(210, 4%, 67%);
   margin-top: 150px;
+  letter-spacing: 5px;
 }
 
 .profile-container {
   display: flex;
+  margin-top: 70px;
+  margin-left: 100px;
 }
 
 .profile {
-  width: 40%;
+  width: 30%;
+  text-align: center;
 }
 .profile img {
   width: 50px;
   border-radius: 50px;
-  margin-left: 180px;
   margin-top: 10px;
 }
 .profile p {
   margin-top: 40px;
-  margin-left: -10px;
+  margin-left: 2px;
   text-align: center;
   color: hsl(213, 9%, 39%);
   font-family: 'Barlow', sans-serif
