@@ -44,6 +44,13 @@ body {
   font-family: 'Fraunces', serif;
 }
 
+@media screen and (max-width: 376px) {
+    .transform h1 {
+        
+    }
+    
+}
+
 .creatives h1 {
   position: absolute;
   margin-left: 350px;
@@ -191,9 +198,18 @@ button {
 /* Footer section */
 .footer {
     background-color: rgb(117, 224, 199) ;
-    margin-top: -5px;
+    margin-top: -22px;
     color: hsl(168, 34%, 41%) ;
     padding-bottom: 100px;
+}
+
+footer h1 {
+  color: hsl(168, 35%, 31%);
+  font-size: 25px;
+  font-weight: 900;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 30px;
 }
 .footer-logo img {
     text-align: center;
@@ -221,3 +237,4 @@ button {
 .footer-icon img {
     margin-right: 20px;
 }
+
